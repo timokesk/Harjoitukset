@@ -1,0 +1,8 @@
+package view;
+
+public interface ArpakuutioGUI_IF {
+	
+	public abstract void setSilmaluku(int silmaluku);
+	public abstract void setHeitot(int heitot);
+	
+}

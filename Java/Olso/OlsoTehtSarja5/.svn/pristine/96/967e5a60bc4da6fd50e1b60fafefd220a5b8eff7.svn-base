@@ -1,0 +1,23 @@
+package saikeet;
+
+/**
+* @author Oma Nimesi
+*/
+
+public class Juoksija extends Thread {
+	volatile boolean jatkuu = true;
+	long kierrokset = 0;
+
+	// Kirjoita kierrokset-muuttujan getteri
+	
+	@Override
+	public void run(){
+
+	}
+
+	// Kun juokseminen halutaan lopettaa, joku toinen säie kutsuu 
+	// lopeta()-metodia.
+	public void lopeta(){
+		 
+	}
+}

@@ -1,0 +1,51 @@
+ 
+import java.util.Scanner;
+import model.*;
+
+public class TekstiMain {
+	static ValuuttaAccessObject valuuttaDAO = new ValuuttaAccessObject();
+	static Scanner scanner = new Scanner(System.in);
+
+	public static void listaaValuutat() {
+
+	}
+
+	public static void lisääValuutta() {
+}
+	}
+
+	public static void päivitäValuutta() {
+
+	}
+
+	public static void poistaValuutta() {
+
+	}
+
+	public static void main(String[] args) {
+		char valinta;
+		final char CREATE = 'C', READ = 'R', UPDATE = 'U', DELETE = 'D', QUIT = 'Q';
+
+		do {
+			System.out.println("C: Lisää uusi valuutta tietokantaan");
+			System.out.println("R: Listaa tietokannassa olevien valuuttojen tiedot");
+			System.out.println("U: Päivitä valuutan vaihtokurssi tietokantaan");
+			System.out.println("D: Poista valuutta tietokannasta");
+			System.out.println("Q. Lopetus");
+			System.out.print("Valintasi: ");
+			
+			valinta = (scanner.nextLine().toUpperCase()).charAt(0);
+			switch (valinta) {
+			case CREATE:
+				break;
+			case READ:
+				listaaValuutat();
+				break;
+			case UPDATE:
+				break;
+			case DELETE:
+				break;
+			}
+		} while (valinta != QUIT);
+	}
+}

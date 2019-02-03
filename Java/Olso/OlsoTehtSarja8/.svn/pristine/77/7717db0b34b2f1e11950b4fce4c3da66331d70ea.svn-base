@@ -1,0 +1,27 @@
+package controller;
+
+import model.ArpakuutioModel;
+import model.ArpakuutioModel_IF;
+import view.ArpakuutioGUI_IF;
+
+public class ArpakuutioKontrolleri implements ArpakuutioKontrolleri_IF {
+	
+	ArpakuutioModel_IF model;
+	ArpakuutioGUI_IF gui;
+	
+	public ArpakuutioKontrolleri(ArpakuutioGUI_IF gui, ArpakuutioModel_IF model) {
+		this.gui = gui;
+		this.model = model;
+	}
+	
+	@Override
+	public void nopanheitto() {
+		
+		int tulos = model.annaSilmaluku();
+		model.lisaaHeitto();
+		
+		gui.setSilmaluku(tulos);
+		gui.setHeitot(ArpakuutioModel.heitot);
+	}
+
+}

@@ -1,0 +1,19 @@
+package saikeet;
+
+/**
+* @author Oma Nimesi
+*/
+
+public class OmaSaie extends Thread {
+    // Nämä tunnukset näkyvät saman pakkauksen luokkiin
+	int luku;
+	static int yhteisetAjokerrat = 0;
+
+	//Kirjoita parametriton konstruktori, joka ei tee mitään
+
+	// Kirjoita parametrillinen konstruktori, joka asettaa arvon instanssimuuttujalle luku
+  
+	// Kirjoita getterit ja setterit
+  
+	// Kirjoita metodi run(), joka kasvattaa kummankin muuttujan arvoa yhdellä  
+}

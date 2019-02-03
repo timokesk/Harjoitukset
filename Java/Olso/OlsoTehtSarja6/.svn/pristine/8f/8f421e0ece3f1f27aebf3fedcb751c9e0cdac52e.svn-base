@@ -1,0 +1,15 @@
+package sharedXY;
+
+/**
+* @author Oma Nimesi
+*/
+
+public class SharedXY {
+	private int x;
+	private int y;
+
+	// Kirjoita konstruktori, joka asettaa muuttujille alkuarvot
+	
+	// Kirjoita metodi swap(), joka vaihtaa arvot keskenään
+	 
+}

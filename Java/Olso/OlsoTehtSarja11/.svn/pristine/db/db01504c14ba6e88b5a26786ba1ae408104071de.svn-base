@@ -1,0 +1,8 @@
+package model;
+
+public interface ValuuttaDAO_IF {
+	
+	public abstract boolean createValuutta(Valuutta valuutta);
+	public abstract Valuutta readValuutta(String tunnus);
+
+}

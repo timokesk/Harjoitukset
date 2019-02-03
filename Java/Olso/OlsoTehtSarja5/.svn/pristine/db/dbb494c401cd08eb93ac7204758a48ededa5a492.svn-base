@@ -1,0 +1,21 @@
+
+import saikeet.Kilpajuoksija;
+
+/**
+* @author Oma nimesi
+*/
+
+public class KilpailuMain {
+
+	public static void main(String[] args) {
+		// Luo taulukko
+
+		// Luo juoksijasäikeet
+	
+		// Pistä poppoo juoksemaan
+
+		// Odota, että kaikki juoksijasäikeet lopettavat
+		
+		System.out.println("Kilpailu on ohi, onnea voittajalle.");
+	}
+}

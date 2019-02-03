@@ -1,0 +1,21 @@
+package saikeet;
+
+/**
+* @author Oma Nimesi
+*/
+
+public class LuuppaavaSaie extends Thread {
+
+	// Pakkaustason näkyvyys
+    int pyydetytKierrokset;
+    int kierretytKierrokset;
+
+	// Kirjoita parametrillinen konstruktori, joka asettaa pyydetyt kierrokset
+	
+	// Kirjoita getteri kierretyille kierroksille
+	
+	// Kirjoita metodi run(), jossa säie kiertää toistossa pyydetyt kierrokset 
+	// kertaa siten, että kierrettyjen kierrosten loppuarvoksi jää toiston päätyttyä 
+	// kierretyt kierrokset. Sen tulee olla lopuksi siis sama kuin pyydetyt kierrokset. 
+	// Tulosta jokaisella kierroksella kierroksen numero. 
+}

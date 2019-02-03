@@ -1,0 +1,19 @@
+import saikeet.Juoksija;
+
+/**
+* @author Oma Nimesi
+*/
+
+public class JuoksijaMain {
+	public static void main(String[] args) {
+
+	// Luo ja käynnistä Juoksija-säie
+	
+	// Odota jonkun aikaa: Thread.sleep()
+	
+	// Pysäytä säie
+	
+	// Hae ja tulosta juostujen kerrosten määrä
+	
+	}
+}

@@ -1,0 +1,17 @@
+import saikeet.LuuppaavaSaie;
+
+/**
+* @author Oma Nimesi
+*/
+
+public class LuuppaavaSaieMain {
+	public static void main(String[] args) {
+
+    // Luo säie
+	
+	// Käynnistä säie
+	
+	// Odota säikeen päättymistä
+	
+	}
+}

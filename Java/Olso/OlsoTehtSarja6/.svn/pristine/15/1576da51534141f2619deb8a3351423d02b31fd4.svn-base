@@ -1,0 +1,17 @@
+package readerwriter;
+
+public class LukijaKirjoittajaMain {
+	public static void main(String[] args) {
+		IntSailio sailio = new IntSailio();
+
+		Kirjoittaja kirjoittaja = new Kirjoittaja(sailio);
+		Lukija lukija = new Lukija(sailio);
+
+		kirjoittaja.start();
+		lukija.start();
+		
+		// Luo vielä toinen lukijasäie (ja kenties kolmaskin...)
+		
+		// main-säie kuolee pois, mutta sen luomat säikeet jatkavat
+	}
+}

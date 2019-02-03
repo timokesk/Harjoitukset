@@ -1,0 +1,32 @@
+package controller;
+
+import model.Valuutta;
+import model.ValuuttaDAO_IF;
+import view.ValuuttakoneenGUI_IF;
+
+public class ValuuttakoneenOhjain implements ValuuttakoneenOhjain_IF {
+	
+	ValuuttaDAO_IF model;
+	ValuuttakoneenGUI_IF gui;
+	
+	public ValuuttakoneenOhjain(ValuuttakoneenGUI_IF gui, ValuuttaDAO_IF model) {
+		this.gui = gui;
+		this.model = model;
+	}
+
+	@Override
+	public void muunnos() {
+		int lahto = gui.getLähtöIndeksi();
+		int kohde = gui.getKohdeIndeksi();
+		double maara = gui.getMäärä();
+		double tulos = model.muunna(lahto, kohde, maara);
+		gui.setTulos(tulos);
+	}
+
+	@Override
+	public String[] getValuutat() {
+		String[] valuutat = model.getVaihtoehdot();
+		return valuutat;
+	}
+
+}

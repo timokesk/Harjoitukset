@@ -1,0 +1,28 @@
+package saikeet;
+
+/**
+* @author Timo Keskiniemi 7.9.2018
+*/
+
+public class Kilpajuoksija extends Thread {
+	private int numero; 				// juoksijan numero
+	public static int seuraavaNumero=1;	// luokkamuuttuja juoksijoiden numeroimiseksi
+	
+	private final int MATKA = 400; 		// juostava matka, tässä vakio
+	private double aika; 				// sekunteina
+
+	@Override
+	public void run(){
+
+	// Ohjelmoi toisto, jossa
+	// - käytät satunnaislukugenerattoria 10 metrin juoksuajan saamiseksi
+	// - odotat ko. ajan
+	// - tulostat väliaikatieto 50 metrin välein
+	
+	}
+
+	public double getAika(){
+		aika = 42.98;  	// poista tämä huijaus
+		return aika; 
+	}
+}
